@@ -60,7 +60,7 @@ Next, we try to match each topic to a president and this is what we got.
 We also look at the word clouds to help us find the best topic name for each topic.
 ![word cloud](https://github.com/youavang/NLP_Inaugural_Speech/blob/main/images/wordcloud.png)
 
-Based on our analysis, we conclude that topic 0 story, topic 1 is idea, topic 2 is dream, and topic 3 is spirit.
+By analyzing the topics computed from the LDA model with only nouns and the word cloud, we conclude that topic 0 is story, topic 1 is idea, topic 2 is dream, and topic 3 is spirit.
 
  Topic | Topic Name | President 
  --- | --- | --- 
