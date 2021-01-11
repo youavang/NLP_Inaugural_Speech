@@ -67,6 +67,6 @@ By analyzing the topics computed from the LDA model with only nouns and the word
   0 | story | George W. Bush 
   1 | idea | Bill Clinton 
   2 | dream | Donald Trump 
-  3 | spirit | Barck Obama 
+  3 | spirit | Barack Obama 
   
 
