@@ -54,5 +54,19 @@ We tried to improve our models by selecting different number of topics and passe
 
 Perplexity measure how well a model predicts a sample. In general, the smaller the perplexity (closer to 0), the better the prediction. Based on the perplexity values of our models, the LDA model with only nouns has the smallest value and ,hence, is the best model.
 
-Next, we 
+Next, we try to match each topic to a president and this is what we got.
 ![topic-president](https://github.com/youavang/NLP_Inaugural_Speech/blob/main/images/topic-president.png)
+
+We also look at the word clouds to help us find the best topic name for each topic.
+![word cloud](https://github.com/youavang/NLP_Inaugural_Speech/blob/main/images/wordcloud.png)
+
+Based on our analysis, we conclude that topic 0 story, topic 1 is idea, topic 2 is dream, and topic 3 is spirit.
+
+ Topic | Topic Name | President 
+ --- | --- | --- 
+  0 | story | George W. Bush 
+  1 | idea | Bill Clinton 
+  2 | dream | Donald Trump 
+  3 | spirit | Barck Obama 
+  
+
