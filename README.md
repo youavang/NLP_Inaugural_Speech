@@ -4,9 +4,14 @@ We used NLP techniques to analyze presidential inaugural speeches and compare th
 
 ## Collect Data
 We used BeautifulSoup to collect data from [The American Presidency Project](https://www.presidency.ucsb.edu/) website by using Requests to get information from specific urls for each presidential inaugural speech. Once the data are extracted they a saved (pickle) into txt format.
+![get data](https://github.com/youavang/NLP_Inaugural_Speech/blob/main/images/get_data.png)
 
 ## Explore Data
-The saved text document of each speech are uploaded and put into a dataframe. Each text document is labeled for the president who gave that speech. We look at the data to see what each document contain to get an understanding of text cleaning process to take.
+The saved text document of each speech are uploaded and put into a dataframe.  
+![data frame](https://github.com/youavang/NLP_Inaugural_Speech/blob/main/images/dataframe.png)
+
+Each text document is labeled for the president who gave that speech. We look at the data to see what each document contain to get an understanding of text cleaning process to take.
+![speech](https://github.com/youavang/NLP_Inaugural_Speech/blob/main/images/speech.png)
 
 ## Clean Data
 For our data we cleaned it up by:
@@ -20,3 +25,7 @@ For our data we cleaned it up by:
 
 ## Analyze Data
 We first analyze the data by creating a word cloud of the most common words.
+![word cloud](https://github.com/youavang/NLP_Inaugural_Speech/blob/main/images/wordcloud.png)
+
+Next, we aggregate the total amount of unique words spoken by each president and we aggregate the total words spoken per speech, then create a bar chart to visualize the totals.
+![total](https://github.com/youavang/NLP_Inaugural_Speech/blob/main/images/bar.png)
